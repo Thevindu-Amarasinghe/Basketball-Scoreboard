@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>BASKETBALL SCOREBOARD</h1>
+        </header>
+
+        <div class="container">
+            <div class="home">
+                <h1>HOME</h1>
+                <div class="home-score">
+                    <h2 class="score" id="h-score">0</h2>
+                </div>
+                <button class="btn-score" onclick="HomeButton1()">+1</button>
+                <button class="btn-score" onclick="HomeButton2()">+2</button>
+                <button class="btn-score" onclick="HomeButton3()">+3</button>
+                <button class="btn-score" onclick="HomeButton4()">-1</button>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div class="guest-score">
+                    <h2 class="score" id="g-score">0</h2>
+                </div>
+                <button class="btn-score" onclick="GuestButton1()">+1</button>
+                <button class="btn-score" onclick="GuestButton2()">+2</button>
+                <button class="btn-score" onclick="GuestButton3()">+3</button>
+                <button class="btn-score" onclick="GuestButton4()">-1</button>
+            </div>
+        </div>
+
+
+        <div class="btns-container">
+            <button class="btn-reset" onclick="ResetButton()">Reset</button>   
+        </div>
+
+        <script src="index.js"></script>
+</body>
+</html>
